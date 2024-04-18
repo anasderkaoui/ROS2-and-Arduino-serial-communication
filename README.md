@@ -89,7 +89,7 @@ After this, you are all good to go. Run the micro ros Agent: `ros2 run micro_ros
 ![Image 3](image-2.png)
 
 
-Arduino code for ultrasonic sensors **using USB cable (serial communication)**, if you want to use the same code but through Wi-Fi you should modify this line:
+Arduino code for ultrasonic sensors **using USB cable (serial communication)**, if you want to use the same code but through Wi-Fi you should use the other file provided within this repo:
 ```C
 #include <micro_ros_arduino.h>
 
